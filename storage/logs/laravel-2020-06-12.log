@@ -1,0 +1,45 @@
+[2020-06-12 20:38:33] local.ERROR: Command "ide-helper" is not defined.
+
+Did you mean one of these?
+    ide-helper:eloquent
+    ide-helper:generate
+    ide-helper:meta
+    ide-helper:models {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"ide-helper\" is not defined.
+
+Did you mean one of these?
+    ide-helper:eloquent
+    ide-helper:generate
+    ide-helper:meta
+    ide-helper:models at D:\\PROGRAMMING\\OSPanel\\domains\\blog_6\\vendor\\symfony\\console\\Application.php:669)
+[stacktrace]
+#0 D:\\PROGRAMMING\\OSPanel\\domains\\blog_6\\vendor\\symfony\\console\\Application.php(235): Symfony\\Component\\Console\\Application->find('ide-helper')
+#1 D:\\PROGRAMMING\\OSPanel\\domains\\blog_6\\vendor\\symfony\\console\\Application.php(147): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#2 D:\\PROGRAMMING\\OSPanel\\domains\\blog_6\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(93): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 D:\\PROGRAMMING\\OSPanel\\domains\\blog_6\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(131): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 D:\\PROGRAMMING\\OSPanel\\domains\\blog_6\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2020-06-12 20:40:11] local.ERROR: syntax error, unexpected '$byDate' (T_VARIABLE) {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalThrowableError(code: 0): syntax error, unexpected '$byDate' (T_VARIABLE) at D:\\PROGRAMMING\\OSPanel\\domains\\blog_6\\app\\Http\\Controllers\\DiggingDeeperController.php:95)
+[stacktrace]
+#0 D:\\PROGRAMMING\\OSPanel\\domains\\blog_6\\vendor\\composer\\ClassLoader.php(322): Composer\\Autoload\\includeFile('D:\\\\PROGRAMMING\\\\...')
+#1 [internal function]: Composer\\Autoload\\ClassLoader->loadClass('App\\\\Http\\\\Contro...')
+#2 [internal function]: spl_autoload_call('App\\\\Http\\\\Contro...')
+#3 D:\\PROGRAMMING\\OSPanel\\domains\\blog_6\\vendor\\barryvdh\\laravel-ide-helper\\src\\Console\\ModelsCommand.php(209): class_exists('App\\\\Http\\\\Contro...')
+#4 D:\\PROGRAMMING\\OSPanel\\domains\\blog_6\\vendor\\barryvdh\\laravel-ide-helper\\src\\Console\\ModelsCommand.php(121): Barryvdh\\LaravelIdeHelper\\Console\\ModelsCommand->generateDocs(Array, Array)
+#5 [internal function]: Barryvdh\\LaravelIdeHelper\\Console\\ModelsCommand->handle()
+#6 D:\\PROGRAMMING\\OSPanel\\domains\\blog_6\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(32): call_user_func_array(Array, Array)
+#7 D:\\PROGRAMMING\\OSPanel\\domains\\blog_6\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(36): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#8 D:\\PROGRAMMING\\OSPanel\\domains\\blog_6\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(90): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#9 D:\\PROGRAMMING\\OSPanel\\domains\\blog_6\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#10 D:\\PROGRAMMING\\OSPanel\\domains\\blog_6\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(590): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#11 D:\\PROGRAMMING\\OSPanel\\domains\\blog_6\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(134): Illuminate\\Container\\Container->call(Array)
+#12 D:\\PROGRAMMING\\OSPanel\\domains\\blog_6\\vendor\\symfony\\console\\Command\\Command.php(255): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#13 D:\\PROGRAMMING\\OSPanel\\domains\\blog_6\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(121): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#14 D:\\PROGRAMMING\\OSPanel\\domains\\blog_6\\vendor\\symfony\\console\\Application.php(1001): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#15 D:\\PROGRAMMING\\OSPanel\\domains\\blog_6\\vendor\\symfony\\console\\Application.php(271): Symfony\\Component\\Console\\Application->doRunCommand(Object(Barryvdh\\LaravelIdeHelper\\Console\\ModelsCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#16 D:\\PROGRAMMING\\OSPanel\\domains\\blog_6\\vendor\\symfony\\console\\Application.php(147): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#17 D:\\PROGRAMMING\\OSPanel\\domains\\blog_6\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(93): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#18 D:\\PROGRAMMING\\OSPanel\\domains\\blog_6\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(131): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#19 D:\\PROGRAMMING\\OSPanel\\domains\\blog_6\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#20 {main}
+"} 
